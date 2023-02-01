@@ -8,6 +8,21 @@ body {
 .navbar{
   background-color: white;
 }
+.navbar-brand{
+  font-size: 40px;
+  height: 40px;
+}
+.delogo{
+  width:80px;
+  margin-left: 0;
+  margin-right: 150px;
+}
+.a{
+  color: blue;
+}
+.ab{
+  border: 1px solid blue;
+}
 
 
 @media only screen and (max-width: 600px) {
