@@ -11,7 +11,7 @@ export default function MainBlog() {
             <p className="NewsTitle"><u>Farm work</u></p>
             <p className="NewsHeading" >On Africa’s farms, the forecast calls for adaptation and innovation.</p>
             <p className="NewDesc">In Kenya, I visited with a smallholder farmer using new tools and practices to fight back against climate change.</p>
-            <small class="text-muted">By Bill Gates | January 31, 2023 </small>
+            <small className="text-muted">By Bill Gates | January 31, 2023 </small>
         </div>
     </div>
     </>
