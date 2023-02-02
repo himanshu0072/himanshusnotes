@@ -1,6 +1,6 @@
 body {
-  margin-left: 150px;
-  margin-right: 150px;
+  margin-left: 160px;
+  margin-right: 160px;
   font-size: 20px;
   font-weight: 900;
   font-family: 'source-serif-pro', 'Source Serif Pro', 'Lyon Display Web','LyonDisplay-Medium', serif;
@@ -14,7 +14,7 @@ body {
 }
 .delogo{
   width:80px;
-  margin-left: 0;
+  margin-left: 10px;
   margin-right: 150px;
 }
 .a{
@@ -36,7 +36,31 @@ body {
 .NewsHeading{
   font-size: 40px;
   font-weight: 900;
+  line-height: 48.5px;
 }
+.SubNews{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr; 
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.SubDiv img{
+  width: 270px;
+}
+.SubDiv img{
+  width: 270px;
+}
+.SubDiv a{
+  text-decoration: none;
+  color: black;
+}
+.text-muted{
+  font-size: 14px;
+  font-weight: 0;
+  text-decoration: none;
+}
+
+
 
 
 @media only screen and (max-width: 600px) {
