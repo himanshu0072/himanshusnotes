@@ -25,6 +25,15 @@ body {
   border: 1px solid blue;
 }
 
+.MainNews{
+  display: flex;
+  align-items: flex-end;
+  gap: 50px;
+}
+.rightDiv{
+  padding: 50px;
+}
+
 
 @media only screen and (max-width: 600px) {
   body {
