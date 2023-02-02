@@ -1,6 +1,6 @@
 body {
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 150px;
+  margin-right: 150px;
   font-size: 20px;
   font-weight: 900;
   font-family: 'source-serif-pro', 'Source Serif Pro', 'Lyon Display Web','LyonDisplay-Medium', serif;
@@ -32,6 +32,10 @@ body {
 }
 .rightDiv{
   padding: 50px;
+}
+.NewsHeading{
+  font-size: 40px;
+  font-weight: 900;
 }
 
 
