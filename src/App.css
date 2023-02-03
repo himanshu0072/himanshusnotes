@@ -60,6 +60,37 @@ body {
   text-decoration: none;
 }
 
+/* Css for latest videos */
+.LatestVideos{
+  background-color: black;
+  color: white;
+  width: 100%;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+.HeadingItem{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.VodeoPoster{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.poster{
+  width: 90%;
+}
+.item1{
+  margin-left: 20px;
+  text-decoration: none;
+}
+.item1 a{
+  color: white;
+}
 
 
 
