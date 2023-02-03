@@ -1,4 +1,5 @@
 import './App.css';
+import Footer from './components/Footer';
 import LatestVideo from './components/LatestVideo';
 import MainBlog from './components/MainBlog';
 import Navbar from './components/Navbar';
@@ -11,6 +12,7 @@ function App() {
     <MainBlog/>
     <SubNews/>
     <LatestVideo/>
+    <Footer/>
     </>
   );
 }

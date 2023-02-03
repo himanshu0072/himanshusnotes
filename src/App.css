@@ -1,9 +1,13 @@
-body {
+.styleForAll {
   margin-left: 160px;
   margin-right: 160px;
   font-size: 20px;
   font-weight: 900;
   font-family: 'source-serif-pro', 'Source Serif Pro', 'Lyon Display Web','LyonDisplay-Medium', serif;
+}
+.Margin_controller{
+  margin-left: 160px;
+  margin-right: 160px;
 }
 .navbar{
   background-color: white;
@@ -90,6 +94,62 @@ body {
 }
 .item1 a{
   color: white;
+}
+/* css for footer */
+.icons svg{
+  margin-left: 10px;
+}
+.Footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 2%;
+}
+.MainFooter{
+  background-color: black;
+  color: white;
+}
+.MainContent {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+  font-size: 14px;
+  font-weight: 0;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: black;
+}
+
+.LeftFooter {
+  float: left;
+  width: 50%;
+  background-color: black;
+  padding-bottom:55px;
+  border-bottom: 2px solid grey;
+  border-right: 2px solid grey;
+}
+
+.RightFooter {
+  float: right;
+  width: 50%;
+  background-color: black;
+  padding-left: 10%;
+  border-bottom: 2px solid grey;
+}
+.grid-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+.grid-item {
+  color: white;
+  text-align: center;
+}
+.justify-content-center{
+  padding-top: 2%;
+}
+.left-spacing{
+  padding-left: 20px;
 }
 
 

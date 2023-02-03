@@ -3,6 +3,7 @@ import React from 'react'
 export default function SubNews() {
   return (
     <>
+    <div className='styleForAll'>
     <div className="SubNews">
         <div className="SubDiv">
             <a href="/Energy/Transmission">
@@ -41,7 +42,9 @@ export default function SubNews() {
                 </div>
             </a>
         </div>
-</div>
+    </div>
+
+    </div>
     </>
   )
 }

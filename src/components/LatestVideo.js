@@ -4,7 +4,7 @@ export default function LatestVideo() {
   return (
     <>
     <div className='container-fluid LatestVideos my-2'>
-
+      <div className='Margin_controller'>
       <div className='container HeadingItem my-4'>
         <div><h4>LATEST VIDEOS</h4></div>
         <div><h5>More Videos <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-arrow-right" viewBox="0 0 16 16">
@@ -32,7 +32,7 @@ export default function LatestVideo() {
                 <div><button type="button" className="btn btn-primary my-4">Read Post</button></div>
             </div>        
         </div>
-
+        </div>
    
 
     </div>

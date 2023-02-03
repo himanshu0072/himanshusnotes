@@ -3,6 +3,7 @@ import delogo from "../images/delogo.png";
 export default function Navbar() {
   return (
     <>
+    <div className='styleForAll'>
       <nav className="navbar sticky-top navbar-expand-lg">
         <div className="container-fluid">
           <a className="navbar-brand mb-4" href="/">
@@ -65,6 +66,7 @@ export default function Navbar() {
         </div>
       </nav>
       <hr></hr>
+      </div>
     </>
   );
 }
