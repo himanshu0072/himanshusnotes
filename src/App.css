@@ -108,6 +108,7 @@
 .MainFooter{
   background-color: black;
   color: white;
+  padding-bottom: 2%;
 }
 .MainContent {
   padding-top: 20px;
@@ -124,7 +125,6 @@
   width: 50%;
   background-color: black;
   padding-bottom:55px;
-  border-bottom: 2px solid grey;
   border-right: 2px solid grey;
 }
 
@@ -133,7 +133,6 @@
   width: 50%;
   background-color: black;
   padding-left: 10%;
-  border-bottom: 2px solid grey;
 }
 .grid-container{
   display: grid;
